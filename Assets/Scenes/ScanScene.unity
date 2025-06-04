@@ -931,7 +931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modelAsset: {fileID: 5022602860645237092, guid: eaf87e5eba05448de949e952701d0750,
     type: 3}
-  classesAsset: {fileID: 0}
+  classesAsset: {fileID: 4900000, guid: e0357fbb228fa49669d79ffdf24b5e17, type: 3}
   displayImage: {fileID: 0}
   borderTexture: {fileID: 2800000, guid: 5049caba823ed49c595e553d22e868b8, type: 3}
   font: {fileID: 12800000, guid: 109207b3ec45446afb082067696d36e6, type: 3}
@@ -1462,6 +1462,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1206401251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206401253}
+  - component: {fileID: 1206401252}
+  m_Layer: 0
+  m_Name: testObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1206401252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206401251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffda854f3482468ea2b54ef81f61419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cube: {fileID: 791235130}
+  detectionText: {fileID: 1173873584}
+--- !u!4 &1206401253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206401251}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 371.63495, y: 202.30267, z: -235.92657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1301237727 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1115155044985751025, guid: cc738e37bf205fe44ad1bc4c16451297,
@@ -1597,6 +1643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cube: {fileID: 791235130}
+  detectionText: {fileID: 0}
 --- !u!4 &1689922334
 Transform:
   m_ObjectHideFlags: 0
@@ -2258,3 +2305,4 @@ SceneRoots:
   - {fileID: 1162208201}
   - {fileID: 2046148945}
   - {fileID: 1632353795}
+  - {fileID: 1206401253}
